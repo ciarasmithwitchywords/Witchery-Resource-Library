@@ -19,4 +19,4 @@ And if you would like to contribute knowledge, I would love that! Please email i
 
 If you appreciate what I've done here and would like to buy me a coffee (or tea!) you can do so here: https://ko-fi.com/ciarasmithwitchandwords
 
-Thank you so mcuh for reading this far and I hope you enjoy this website!!
+Thank you so much for reading this far and I hope you enjoy this website!!
