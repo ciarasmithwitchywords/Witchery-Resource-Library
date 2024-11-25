@@ -9,13 +9,13 @@
     
     <meta name="author" content="Ciara Smith">
     
-    <meta name="description" content="A library of information I have studied in my time as a witch and their correspences with each other.">
+    <meta name="description" content="A library of information I have studied in my time as a witch and their correspences with each other. To find out more information please see type Introduction. For new brooms who don&#39;t know where to start, go to type New Brooms for recommendations.">
     
     <meta name="keywords" content="">
     
-    <meta name="date" content="2024-11-24">
+    <meta name="date" content="2024-11-25">
     <title>Cosma — Witchery Resource Library</title>
-    
+
     <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAIGaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA2LjAuMCI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8xLjAvIgogICAgICAgICAgICB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDxleGlmOlBpeGVsWERpbWVuc2lvbj4xMDI0PC9leGlmOlBpeGVsWERpbWVuc2lvbj4KICAgICAgICAgPGV4aWY6UGl4ZWxZRGltZW5zaW9uPjEwMjQ8L2V4aWY6UGl4ZWxZRGltZW5zaW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KokyVsAAAAAlwSFlzAAALEwAACxMBAJqcGAAAATtQTFRFR3BMDVJzDFx+GHSUAP//DVByCVd3AAAAAAD/AIKBCXKSBFJ0F1x/GFZ2EGCANmF8D2+QGHaXFG6NAFh8EnaXG3aWLHCOE2iIH3mZAEx4AFV6AG2QAXOUOn+dprG8AHGSGmuLGWmJfZqtUoahprrGD1V4CVV4FHeWFnWWLmeIAFp8FWaGAFh7LmeGF2OGUHWNfZapAF+HUHSNfZaoAF6H/////Pz87O7x4uLio6Oj3t7eFWaJE16DGGCEIWuOAFqAGoCiADxyAFyHRG+MHoGjAGeQE3GUEG6S1tvhAH2iRX+cAG2Y5OjrAGWMiqCxoa+7iqGyobXBB2KGCF6DCGGFCl2DE4CiEX2gGXqdEX2fFX+iJHmcGXqcInmbAEx3aIWa193jAE12Z4Sa5ensZ5CmaZCn1t3j5Ons3t7fp3RRZgAAADV0Uk5TAHRwQQFHRAEBAkJ4+3h0eHBudPpy+3V1cvv7+vpy+/v7+/v7+52dmZl1+nX6dXX7+/v7+/siYXfnAAAA2ElEQVQYGQXBy07CUBRA0X1OD9zCQAloS4Nj40ii/gG/7UdoSYwxjowCgo9EQxrpfdS1wA0AAGDgEHcgO8qshw/xN+IscnG9tp6SfCjqp2hheHXrMhO6EB8Wr43Rz/qX2fSe+TbW0m8MlepMdvBVxCJTDHv/vkNulqs3fnaGIpJmqnWnOksiKKVIAoAkcoLR+fEGMWK3OfYJ5SWsJ2XlfVVOtmGFso+tP53AaOzbuMewqt4+Tj9pP0aH0lrJ/87nG1Elpa5cPufiDvTCUJWUGvM4cDkAAOSOf+M3WO+ZgJOzAAAAAElFTkSuQmCC" />
 
     <style> 
@@ -104,7 +104,6 @@
         <header role="banner">
             
             <h1 class="title">Witchery Resource Library</h1>
-		<h4>A library of information I have studied in my time as a witch and their correspences with each other. To find out more information please see type Introduction. For new brooms who don't know where to start, go to type New Brooms for recommendations.</h4>
             
 
             <div class="load-bar" onclick="updateForces()"
@@ -128,6 +127,12 @@
             <form id="types-form" class="menu-types-container">
                 
                 <label class="filter">
+                    <input type="checkbox" name="Witch&#39;s Alphabet">
+                    <span class="label" style="color: var(--n_witchs-alphabet);">Witch&#39;s Alphabet</span>
+                    <span class="badge">1</span>
+                </label>
+                
+                <label class="filter">
                     <input type="checkbox" name="Protection">
                     <span class="label" style="color: var(--n_protection);">Protection</span>
                     <span class="badge">8</span>
@@ -136,7 +141,7 @@
                 <label class="filter">
                     <input type="checkbox" name="Introduction">
                     <span class="label" style="color: var(--n_introduction);">Introduction</span>
-                    <span class="badge">3</span>
+                    <span class="badge">4</span>
                 </label>
                 
                 <label class="filter">
@@ -160,6 +165,12 @@
                 <label class="filter">
                     <input type="checkbox" name="Sigils">
                     <span class="label" style="color: var(--n_sigils);">Sigils</span>
+                    <span class="badge">1</span>
+                </label>
+                
+                <label class="filter">
+                    <input type="checkbox" name="Runes">
+                    <span class="label" style="color: var(--n_runes);">Runes</span>
                     <span class="badge">1</span>
                 </label>
                 
@@ -363,7 +374,7 @@
         <details class="menu-index" id="index">
             <summary class="menu-title">
                 Index
-                <span id="index-counter" class="badge">21</span>
+                <span id="index-counter" class="badge">24</span>
             </summary>
 
             <select class="sorting-select" name="index_sorting">
@@ -397,7 +408,18 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124111128" style="order: 3">
+                <li data-index="20241125100353" style="order: 3">
+                    <a href="#20241125100353">
+                        <span class="record-type-points">
+                            
+                            <span style="color: var(--n_runes);">⬤</span>
+                            
+                        </span>
+                        <span>Elder Futhark Runes</span>
+                    </a>
+                </li>
+                
+                <li data-index="20241124111128" style="order: 4">
                     <a href="#20241124111128">
                         <span class="record-type-points">
                             
@@ -408,7 +430,7 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124110408" style="order: 4">
+                <li data-index="20241124110408" style="order: 5">
                     <a href="#20241124110408">
                         <span class="record-type-points">
                             
@@ -419,7 +441,7 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124110001" style="order: 5">
+                <li data-index="20241124110001" style="order: 6">
                     <a href="#20241124110001">
                         <span class="record-type-points">
                             
@@ -430,7 +452,7 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124112015" style="order: 6">
+                <li data-index="20241124112015" style="order: 7">
                     <a href="#20241124112015">
                         <span class="record-type-points">
                             
@@ -441,7 +463,7 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124110817" style="order: 7">
+                <li data-index="20241124110817" style="order: 8">
                     <a href="#20241124110817">
                         <span class="record-type-points">
                             
@@ -452,7 +474,7 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124105852" style="order: 8">
+                <li data-index="20241124105852" style="order: 9">
                     <a href="#20241124105852">
                         <span class="record-type-points">
                             
@@ -463,7 +485,7 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124110742" style="order: 9">
+                <li data-index="20241124110742" style="order: 10">
                     <a href="#20241124110742">
                         <span class="record-type-points">
                             
@@ -474,7 +496,7 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124110635" style="order: 10">
+                <li data-index="20241124110635" style="order: 11">
                     <a href="#20241124110635">
                         <span class="record-type-points">
                             
@@ -485,7 +507,7 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124110031" style="order: 11">
+                <li data-index="20241124110031" style="order: 12">
                     <a href="#20241124110031">
                         <span class="record-type-points">
                             
@@ -496,7 +518,7 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124111156" style="order: 12">
+                <li data-index="20241124111156" style="order: 13">
                     <a href="#20241124111156">
                         <span class="record-type-points">
                             
@@ -507,7 +529,7 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124110346" style="order: 13">
+                <li data-index="20241124110346" style="order: 14">
                     <a href="#20241124110346">
                         <span class="record-type-points">
                             
@@ -518,7 +540,7 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124110436" style="order: 14">
+                <li data-index="20241124110436" style="order: 15">
                     <a href="#20241124110436">
                         <span class="record-type-points">
                             
@@ -529,7 +551,7 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124111045" style="order: 15">
+                <li data-index="20241124111045" style="order: 16">
                     <a href="#20241124111045">
                         <span class="record-type-points">
                             
@@ -540,7 +562,7 @@
                     </a>
                 </li>
                 
-                <li data-index="20241121213905" style="order: 16">
+                <li data-index="20241121213905" style="order: 17">
                     <a href="#20241121213905">
                         <span class="record-type-points">
                             
@@ -551,7 +573,7 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124110314" style="order: 17">
+                <li data-index="20241124110314" style="order: 18">
                     <a href="#20241124110314">
                         <span class="record-type-points">
                             
@@ -562,7 +584,18 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124110457" style="order: 18">
+                <li data-index="20241125092544" style="order: 19">
+                    <a href="#20241125092544">
+                        <span class="record-type-points">
+                            
+                            <span style="color: var(--n_introduction);">⬤</span>
+                            
+                        </span>
+                        <span>Updates</span>
+                    </a>
+                </li>
+                
+                <li data-index="20241124110457" style="order: 20">
                     <a href="#20241124110457">
                         <span class="record-type-points">
                             
@@ -573,7 +606,7 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124105630" style="order: 19">
+                <li data-index="20241124105630" style="order: 21">
                     <a href="#20241124105630">
                         <span class="record-type-points">
                             
@@ -584,7 +617,7 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124105709" style="order: 20">
+                <li data-index="20241124105709" style="order: 22">
                     <a href="#20241124105709">
                         <span class="record-type-points">
                             
@@ -595,7 +628,7 @@
                     </a>
                 </li>
                 
-                <li data-index="20241124110249" style="order: 21">
+                <li data-index="20241124110249" style="order: 23">
                     <a href="#20241124110249">
                         <span class="record-type-points">
                             
@@ -603,6 +636,17 @@
                             
                         </span>
                         <span>Why start with protection?</span>
+                    </a>
+                </li>
+                
+                <li data-index="20241125095936" style="order: 24">
+                    <a href="#20241125095936">
+                        <span class="record-type-points">
+                            
+                            <span style="color: var(--n_witchs-alphabet);">⬤</span>
+                            
+                        </span>
+                        <span>Witch&#39;s Alphabet</span>
                     </a>
                 </li>
                 
@@ -644,7 +688,7 @@
                     <label>
                         <input type="checkbox" checked onchange="linksDisplayToggle(this.checked)">
                         Display links
-                        <span class="badge">0</span>
+                        <span class="badge">4</span>
                     </label>
                 </li>
                 <li>
@@ -871,6 +915,50 @@
             </footer>
         </article>
         
+        <article id="20241125100353" class="record">
+            <header>
+                <h1 class="record-title">Elder Futhark Runes</h1>
+
+                
+
+                
+                <div class="record-id">
+                    <span>id :</span>
+                    <span>20241125100353</span>
+                </div>
+                
+
+                <div class="record-type">
+                    <span>types :</span>
+                    <span>Runes</span>
+                </div>
+
+                
+
+                
+
+                
+
+                
+            </header>
+
+            <main class="record-content">
+                
+                <p>I particularly love this image from <a href="https://witchesofthecraft.com/2018/05/06/quick-guide-to-the-meaning-of-the-elder-futhark-runes/">https://witchesofthecraft.com/2018/05/06/quick-guide-to-the-meaning-of-the-elder-futhark-runes/</a> for a quick glance reference to the runes. Each will have it's own page to further include correspondences, but this is a great start!</p>
+<p><img src="https://i.pinimg.com/564x/f1/77/ee/f177ee6577a83d0500dd30868dd70427.jpg" alt="Quick Rune Guide"></p>
+
+                
+
+                
+            </main>
+
+            <footer class="list-content-container">
+                
+
+                
+            </footer>
+        </article>
+        
         <article id="20241124111128" class="record">
             <header>
                 <h1 class="record-title">Empathy for others</h1>
@@ -984,13 +1072,49 @@
 
             <main class="record-content">
                 
-                
+                <p>Hi New Brooms and Welcome to the Witchery Library!! I know starting out can be quite overwhelming and some people like to tell you where exactly you should start and what to do and what not to do. What are closed practices and what aren't. There's so much information!</p>
+<p>But honestly, no one can tell you what to do in your practice. It's up to your discernment.</p>
+<p>If you have the background, culture, or right to a closed practice, even if you don't &quot;look&quot; it (eye roll here), then you do it and you don't have to explain yourself.</p>
+<p>If you want to work with deities in your first year, I do recommend on doing your research into who they are, but you go do that!</p>
+<p>The <a href="#20241124110031" title="Recommended Starting Place" class="record-link ">Recommended Starting Place</a> page is just that, recommended. I do provide reasoning, but it's completely up to you if that's where you start.</p>
+<p>Please do be safe though! Please research because some herbs are dangerous to touch or ingest, some crystals react in different conditions or cause unexpected situations, and some deities require a lot of work. So take care of yourself out there.</p>
+<p>And cross reference everything! Even this website. Because you don't know me, social media folks sometimes get it wrong... you get the idea.</p>
+
                 
 
                 
             </main>
 
             <footer class="list-content-container">
+                
+                <details class="record-links" open="open">
+                    <summary class="menu-title">
+                        links
+                        <span class="badge">1</span>
+                    </summary>
+
+                    <ul class="record-links-list">
+                        
+                        <li data-target-id="20241124110031">
+                            <a href="#20241124110031">
+                                <span class="record-type-points">
+                                    
+                                    <span style="color: var(--n_new-brooms);">⬤</span>
+                                    
+                                </span>
+                                
+                                <span>Recommended Starting Place</span>
+                                
+                                <div class="record-links-context hover">
+                                    <p>The <a href="#20241124110031" title="Recommended Starting Place" class="record-link highlight">Recommended Starting Place</a> page is just that, recommended. I do provide reasoning, but it's completely up to you if that's where you start.</p>
+
+                                </div>
+                                
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </details>
                 
 
                 
@@ -1078,6 +1202,35 @@
                 
 
                 
+                <details class="record-backlinks" open="open">
+                    <summary class="menu-title">
+                        backlinks
+                        <span class="badge">1</span>
+                    </summary>
+
+                    <ul class="record-backlinks-list">
+                        
+                        <li data-target-id="20241124110742">
+                            <a href="#20241124110742">
+                                <span class="record-type-points">
+                                    
+                                    <span style="color: var(--n_shadow-work);">⬤</span>
+                                    
+                                </span>
+                                
+                                <span>Importance of Shadow Work</span>
+                                
+                                <div class="record-links-context hover">
+                                    <p>Now the part that comes from my experience and downloads (if you'd like to skip it, go ahead to <a href="#20241124110817" title="How to do Shadow Work" class="record-link highlight">How do to do shadow work</a>):</p>
+
+                                </div>
+                                
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </details>
+                
             </footer>
         </article>
         
@@ -1110,7 +1263,12 @@
 
             <main class="record-content">
                 
-                
+                <p>I do hope I've made this easy to navigate, but I wanted to create extra instructions, just in case.</p>
+<p>Categories of information within witchcraft are labeled as &quot;Types&quot; on this website. They are color coordinated, but if you'd like to look at one specific category, simply uncheck all the others.</p>
+<p>The &quot;tags&quot; listed are keywords associated with everything. If you're looking for items for a love spell for example, you could select the love tag, and it'll show you the herbs, crystals, deities, etc, that are associated with &quot;love.&quot;</p>
+<p>Some correspondences don't need a whole a page of explanation and that's how they end up tags. They're just simple keywords associated with things. But some correspondences do have their own separate pages of explanation and these show up in pages as links. While you're reading one page, you can click on a link that will take you to the other page.</p>
+<p>Hope this makes sense and if you need further explanation, let me know!</p>
+
                 
 
                 
@@ -1152,7 +1310,30 @@
 
             <main class="record-content">
                 
-                
+                <p>So some of this information will come from the general information available and some from downloads (channeled messages from Spirit) that I've received. You don't have to believe in all of it, but I do hope you look into and decide for yourself what to believe.</p>
+<p>Shadow Work was developed by psychoanalyst Carl Jung who used the term &quot;shadow self&quot; to describe the parts of ourselves we repress or don't acknowledge.</p>
+<p>These parts could be trauma, behaviors that we don't like, unhealthy coping mechanisms, how we treat others, etc.</p>
+<p>Shadow Work can also teach you how to take care of your Inner Child. Your Inner Child is that part of your personality that is spontaneous and creative and sees the wonder in the world. But, depending on how you grew up, it can also be accompanied by fear, pain, and/or anger.</p>
+<p>The part of yourself that you live in day to day is your ego. This part of you experiences the outside world and reacts to it, however your life has conditioned you to react to it.</p>
+<p>The goal of shadow work is to integrate these 3 parts of yourself together. This leads to becoming your Higher Self, improving your relationship to others, reacting to the world around you in a more compassionate way and for your higher good, and being nicer to yourself honestly.</p>
+<p>Now the part that comes from my experience and downloads (if you'd like to skip it, go ahead to <a href="#20241124110817" title="How to do Shadow Work" class="record-link ">How do to do shadow work</a>):</p>
+<p>What I've been shown and come to believe is that these three aspects of ourselves come from source in a long line of energetic dimensions. Let me explain that better:</p>
+<p>First there is Source. The source of energy, the source of life, different religions and cultures have different names for it and I won't list it here (because some may have religious trauma, something good to work on during shadow work). But this is the energy that started everything and knows everything and is everywhere all the time. This is the highest dimension.</p>
+<p>A dimension down, Source splits into Divine Feminine, Divine Masculine, and Divine Neutral.</p>
+<p>Another dimension down, the three Divines split into Light, Grey, and Dark. Now truth be told, these terms have been used maliciously and against certain people and I'm certainly not qualified to get into all that, but using the words and labels I have at my disposal.</p>
+<p>But a basic understanding is that Light focuses on the highest good, love, self and world improvement.</p>
+<p>Dark energy focuses on ... well traditionally powers that harm others or focuses on selfish gains... I have a bit of trouble explaining it this way because in our society these are deemed as &quot;bad&quot; things, but sometimes it is quite necessary for safety or for our betterment. Don't let these labels make you uncomfortable.</p>
+<p>Grey is a mix of the two. They don't go out of their way to harm others, but if someone would do something to them, they will defend themselves. And whatever the attacker gives, they better be ready to get it right back lol.</p>
+<p>Again, these are super super basic explanations and I encourage you to research more from people far smarter than me.</p>
+<p>So anyway back to our energetic sources. We now have Light Feminine, Grey Feminine, Dark Feminine, Light Neutral, Grey Neutrial, Dark Neutral, and Light Masculine, Grey Masculine, and Dark Masculine.</p>
+<p>So now we go down another dimenstion and those energies split into the deities that we know and probably deities we don't know. Studying the different pantheons and deities, you probably notice archetypes, specific personalities, particular strengths of each deities. That's because they come from the specific archetypes that I outlined above.</p>
+<p>Ok so now the trippy part (at least trippy to me). It is my belief that the dimension below the deities, our dimension, they further split. And that split energy went into everything, the Earth, the planets, the bugs, animals, plants, crystals, us, everything.</p>
+<p>And I believe that the Ego, Shadow Self, and Inner Child are each different parts of the deities. So someone could have an Ego aspect from Odin, a Shadow Self of Loki, and an Inner Child of Artemis. And someone else could have Odin, Loki,and Artemis parts but be different aspects. There's infinite possibilities, infinite combinations.</p>
+<p>I believe that integrating all these aspects, combining yourself into your Higher Self, helps you access the upper dimension.</p>
+<p>Also, I think shadow work shows you that you have the power to create and to manifest because you are Source. You have the power, you just have to access it.</p>
+<p>Another amazing thing with this is knowing that your energy is also connected to everything else, that the herb that you're using for money just enhances your own ability to get money. The crystal you're using for your headache enhances your ability to get rid of your headache.</p>
+<p>And it opened my eyes to be compassionate to others even more so than I already was. Because they have the same energy, the same power as me, and are on a different journey to healing and a different path to using their power than me and I think that's beautiful.</p>
+
                 
 
                 
@@ -1160,7 +1341,65 @@
 
             <footer class="list-content-container">
                 
+                <details class="record-links" open="open">
+                    <summary class="menu-title">
+                        links
+                        <span class="badge">1</span>
+                    </summary>
 
+                    <ul class="record-links-list">
+                        
+                        <li data-target-id="20241124110817">
+                            <a href="#20241124110817">
+                                <span class="record-type-points">
+                                    
+                                    <span style="color: var(--n_shadow-work);">⬤</span>
+                                    
+                                </span>
+                                
+                                <span>How to do Shadow Work</span>
+                                
+                                <div class="record-links-context hover">
+                                    <p>Now the part that comes from my experience and downloads (if you'd like to skip it, go ahead to <a href="#20241124110817" title="How to do Shadow Work" class="record-link highlight">How do to do shadow work</a>):</p>
+
+                                </div>
+                                
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </details>
+                
+
+                
+                <details class="record-backlinks" open="open">
+                    <summary class="menu-title">
+                        backlinks
+                        <span class="badge">1</span>
+                    </summary>
+
+                    <ul class="record-backlinks-list">
+                        
+                        <li data-target-id="20241124110031">
+                            <a href="#20241124110031">
+                                <span class="record-type-points">
+                                    
+                                    <span style="color: var(--n_new-brooms);">⬤</span>
+                                    
+                                </span>
+                                
+                                <span>Recommended Starting Place</span>
+                                
+                                <div class="record-links-context hover">
+                                    <p>So head on over to <a href="#20241124110249" title="Why start with protection?" class="record-link ">Why start with protection?</a> and <a href="#20241124110742" title="Importance of Shadow Work" class="record-link highlight">Importance of shadow work</a> to get started.</p>
+
+                                </div>
+                                
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </details>
                 
             </footer>
         </article>
@@ -1236,7 +1475,10 @@
 
             <main class="record-content">
                 
-                
+                <p>So again these are recommendations! But I suggest starting with Protections and Shadow Work. By start with, I don't mean that you shouldn't do anything else until you master these. Because honestly, I don't think anyone ever knows everything about protection all the time and shadow work is a cyclical and ever-going process.</p>
+<p>These two practices though will keep you safe and help you grow. I know I wouldn't be the person I am now without both of these and I regularly visit both these subjects no matter what subject I'm studying.</p>
+<p>So head on over to <a href="#20241124110249" title="Why start with protection?" class="record-link ">Why start with protection?</a> and <a href="#20241124110742" title="Importance of Shadow Work" class="record-link ">Importance of shadow work</a> to get started.</p>
+
                 
 
                 
@@ -1244,7 +1486,83 @@
 
             <footer class="list-content-container">
                 
+                <details class="record-links" open="open">
+                    <summary class="menu-title">
+                        links
+                        <span class="badge">2</span>
+                    </summary>
 
+                    <ul class="record-links-list">
+                        
+                        <li data-target-id="20241124110249">
+                            <a href="#20241124110249">
+                                <span class="record-type-points">
+                                    
+                                    <span style="color: var(--n_protection);">⬤</span>
+                                    
+                                </span>
+                                
+                                <span>Why start with protection?</span>
+                                
+                                <div class="record-links-context hover">
+                                    <p>So head on over to <a href="#20241124110249" title="Why start with protection?" class="record-link highlight">Why start with protection?</a> and <a href="#20241124110742" title="Importance of Shadow Work" class="record-link ">Importance of shadow work</a> to get started.</p>
+
+                                </div>
+                                
+                            </a>
+                        </li>
+                        
+                        <li data-target-id="20241124110742">
+                            <a href="#20241124110742">
+                                <span class="record-type-points">
+                                    
+                                    <span style="color: var(--n_shadow-work);">⬤</span>
+                                    
+                                </span>
+                                
+                                <span>Importance of Shadow Work</span>
+                                
+                                <div class="record-links-context hover">
+                                    <p>So head on over to <a href="#20241124110249" title="Why start with protection?" class="record-link ">Why start with protection?</a> and <a href="#20241124110742" title="Importance of Shadow Work" class="record-link highlight">Importance of shadow work</a> to get started.</p>
+
+                                </div>
+                                
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </details>
+                
+
+                
+                <details class="record-backlinks" open="open">
+                    <summary class="menu-title">
+                        backlinks
+                        <span class="badge">1</span>
+                    </summary>
+
+                    <ul class="record-backlinks-list">
+                        
+                        <li data-target-id="20241124110001">
+                            <a href="#20241124110001">
+                                <span class="record-type-points">
+                                    
+                                    <span style="color: var(--n_new-brooms);">⬤</span>
+                                    
+                                </span>
+                                
+                                <span>Hello and Welcome</span>
+                                
+                                <div class="record-links-context hover">
+                                    <p>The <a href="#20241124110031" title="Recommended Starting Place" class="record-link highlight">Recommended Starting Place</a> page is just that, recommended. I do provide reasoning, but it's completely up to you if that's where you start.</p>
+
+                                </div>
+                                
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </details>
                 
             </footer>
         </article>
@@ -1564,6 +1882,90 @@
             </footer>
         </article>
         
+        <article id="20241125092544" class="record">
+            <header>
+                <h1 class="record-title">Updates</h1>
+
+                
+
+                
+                <div class="record-id">
+                    <span>id :</span>
+                    <span>20241125092544</span>
+                </div>
+                
+
+                <div class="record-type">
+                    <span>types :</span>
+                    <span>Introduction</span>
+                </div>
+
+                
+
+                
+
+                
+
+                
+            </header>
+
+            <main class="record-content">
+                
+                <p>I want to reiterate that I know that I don't know everything lol. I feel that's really important to say in our community. I don't believe we ever stop learning, honestly. Or new information comes out that reshapes the things we knew before. Knowledge is an ever-evolving thing.</p>
+<p>So this page will be where I post what changes, corrections, or updates I've made to show you the progress and evolution.</p>
+<p><strong>Updates will go here, with dates.</strong></p>
+<p>Also, I want this to be a collaborative space! That's where you come in. There are three ways you can be involved.</p>
+<ol>
+<li>
+<p>If you see information that is wrong, please email me at <a href="mailto:ciarasmith@witchandwords.com">ciarasmith@witchandwords.com</a> with the subject line &quot;Library Correction&quot; and I will verify the information you provide and update that.</p>
+</li>
+<li>
+<p>If you'd like to request new information that hasn't been included (and have scrolled down this page to see if it's upcoming), you can email me with subject line &quot;Library Request&quot; and I will add to the list of items to include. **Please note that I'm working really hard not to include closed practices! Requests for closed practice items will not be added as of right now (because I could make a disclaimer about &quot;Know this, but it's closed&quot; but I could see people still using the information.)</p>
+</li>
+<li>
+<p>If you'd like to contribute knowledge, that'd be amazing! Please email with subject line &quot;Library Contribution&quot; and I will add it with your name for credit (and links or socials if you wish.)</p>
+</li>
+</ol>
+<p>If you appreciate what I've done here and would like to buy me a coffee (or a tea!), you can do so here: <a href="https://ko-fi.com/ciarasmithwitchandwords">https://ko-fi.com/ciarasmithwitchandwords</a></p>
+<p>But it's 100% not expected!</p>
+<p><strong>Items to Include</strong></p>
+<p>-Protection<br>
+-Shadow Work<br>
+-Sigils<br>
+-Colors<br>
+-Moon Cycles<br>
+-Holidays<br>
+-Days of the Week<br>
+-Numerology<br>
+-Tarot<br>
+-Runes<br>
+-Witch's Alphabet<br>
+-Chakras<br>
+-Herbs-Spiritual<br>
+-Herbs-Medicinal<br>
+-Crystals<br>
+-Alchemy<br>
+-Western Astrology-Aspects, Houses, Zodiacs, and other bodies<br>
+-Celtic Pantheon<br>
+-Demonaltry<br>
+-Egyptian Pantheon<br>
+-Germanic Pantheon<br>
+-Greek Pantheon<br>
+-Norse Pantheon<br>
+-Saints</p>
+
+                
+
+                
+            </main>
+
+            <footer class="list-content-container">
+                
+
+                
+            </footer>
+        </article>
+        
         <article id="20241124110457" class="record">
             <header>
                 <h1 class="record-title">Ward Protections</h1>
@@ -1635,7 +2037,19 @@
 
             <main class="record-content">
                 
-                
+                <p>Hi! I'm Ciara. (Legally. If you're coming here from socials, I go under Casey, but that's a long story.) I'm a Navy veteran, mom, wife, genderfae, pansexual, disabled with POTS and EDS, AuDHDer, editer, literary agent, writer, pagan, and witch.</p>
+<p>Mostly why you're here on this site I've created is because I love research, I love bettering myself, and I love helping others.</p>
+<p>I've been practicing witchcraft since 2021 after the birth of my second daughter. I was struggling, suffering from PPD (which I didn't know), still unaware of my autism and ADHD, still fighting doctors to get physical diagnoses. And it took it's toll on me and how I treated others.</p>
+<p>And I knew I had to do better.</p>
+<p>So alongside the path of researching my disabilities to take care of my own self, I started witchcraft. I started with tarot reading and astrology but quickly found my clairaudience and clairvoyance. I worked with Norse deities who initiated me as a V#ölva. I wasn't ready for one of the paths they specifically wanted me on (still am not ready) and moved through different phases of my craft.</p>
+<p>One that I hold dear to my heart still is herbalism. I'm allergic to medicine that might take away my pain and herbalism was helped me so much. I'm still in the learning process and would love to afford a certification, but for now I read a lot and have very niche knowledge in the subject.</p>
+<p>Astrology is also hugely important to me. It helps me understand whys and whens and my place in the world.</p>
+<p>I'm also studying Reiki and on my way to master. After which I'll be studying other modalities, but mostly working on building one because my spirit guides told me to.</p>
+<p>Currently (as of November 2024), I work with God, Hecate, Hel, and Archangel Michael, and have really felt myself level up in what I understand and what I want to do for others. I'm not perfect by any means, nor done growing and learning, but I am immensely proud of the difference between who I was and who I am now. And give complete credit to my practice and the spirits who have honored my with their guidance.</p>
+<p>The label I would apply to my craft is Energy Magic, and I'll go a little more into why in the &quot;Why I made this&quot; page, but it's perfectly suited to how I see the world and my own physical limitations.</p>
+<p>If you've made it this far, thank you! I hope you love this tool I made and I hope it helps you, no matter what path you're on.</p>
+<p>Blessed Be!</p>
+
                 
 
                 
@@ -1677,7 +2091,14 @@
 
             <main class="record-content">
                 
-                
+                <p>So if I'm an Energy Witch, why did I made this?</p>
+<p>There are so many resources, books and websites, that gives keywords and correspondences and definitions. So why was this important to me?</p>
+<p>Because all those resources didn't show the links.</p>
+<p>I wanted a visual aid that shows the connections. And couldn't find one. So I made one! If you click the tag Abundance, you'll see the connections to herbs, crystals, and Deities that deal with abundance. If you click an herb, you'll see it's spiritual use and medicinal use.</p>
+<p>I believe being able to see these links will strengthen our spells, diversify our practice, and most importantly further strengthen our energetic connections.</p>
+<p>As I said in the Who am I? page, I'm an energy witch. I believe that everything has energy, the dirt under our feet, the worms, up to the mountains and cosmos. We're not isolated pockets of energy, but just part of an enormous and awe-inspiring network of energy. So seeing the connections between our energies, the tools we use, even the deities we work with is vital (to me).</p>
+<p>Now! I'm not saying I know everything and that this is a complete website, so please head over to Updates to find out more about how I plan to make sure I'm giving the best information.</p>
+
                 
 
                 
@@ -1706,6 +2127,77 @@
                 <div class="record-type">
                     <span>types :</span>
                     <span>Protection</span>
+                </div>
+
+                
+
+                
+
+                
+
+                
+            </header>
+
+            <main class="record-content">
+                
+                
+                
+
+                
+            </main>
+
+            <footer class="list-content-container">
+                
+
+                
+                <details class="record-backlinks" open="open">
+                    <summary class="menu-title">
+                        backlinks
+                        <span class="badge">1</span>
+                    </summary>
+
+                    <ul class="record-backlinks-list">
+                        
+                        <li data-target-id="20241124110031">
+                            <a href="#20241124110031">
+                                <span class="record-type-points">
+                                    
+                                    <span style="color: var(--n_new-brooms);">⬤</span>
+                                    
+                                </span>
+                                
+                                <span>Recommended Starting Place</span>
+                                
+                                <div class="record-links-context hover">
+                                    <p>So head on over to <a href="#20241124110249" title="Why start with protection?" class="record-link highlight">Why start with protection?</a> and <a href="#20241124110742" title="Importance of Shadow Work" class="record-link ">Importance of shadow work</a> to get started.</p>
+
+                                </div>
+                                
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </details>
+                
+            </footer>
+        </article>
+        
+        <article id="20241125095936" class="record">
+            <header>
+                <h1 class="record-title">Witch&#39;s Alphabet</h1>
+
+                
+
+                
+                <div class="record-id">
+                    <span>id :</span>
+                    <span>20241125095936</span>
+                </div>
+                
+
+                <div class="record-type">
+                    <span>types :</span>
+                    <span>Witch&#39;s Alphabet</span>
                 </div>
 
                 
@@ -1799,7 +2291,7 @@
                 
 
                 
-                <p class="metas-description">A library of information I have studied in my time as a witch and their correspences with each other.</p>
+                <p class="metas-description">A library of information I have studied in my time as a witch and their correspences with each other. To find out more information please see type Introduction. For new brooms who don&#39;t know where to start, go to type New Brooms for recommendations.</p>
                 
                 
                 <hr>
@@ -1879,12 +2371,12 @@
     
 
     <script>
-        const data = {"nodes":[{"id":"20241124110249","label":"Why start with protection?","types":["Protection"],"size":11,"strokeWidth":2},{"id":"20241124105709","label":"Why did I make this?","types":["Introduction"],"size":11,"strokeWidth":2},{"id":"20241124105630","label":"Who am I?","types":["Introduction"],"size":11,"strokeWidth":2},{"id":"20241124110457","label":"Ward Protections","types":["Protection"],"size":11,"strokeWidth":2},{"id":"20241124110314","label":"Types of Protection","types":["Protection"],"size":11,"strokeWidth":2},{"id":"20241121213905","label":"The Crown Chakra","types":["Chakra"],"size":11,"strokeWidth":2},{"id":"20241124111045","label":"Taking care of your Inner Child","types":["Shadow Work"],"size":11,"strokeWidth":2},{"id":"20241124110436","label":"Spell Protections","types":["Protection"],"size":11,"strokeWidth":2},{"id":"20241124110346","label":"Sigil Protections","types":["Protection"],"size":11,"strokeWidth":2},{"id":"20241124111156","label":"Reprogramming your Subconscious","types":["Shadow Work"],"size":11,"strokeWidth":2},{"id":"20241124110031","label":"Recommended Starting Place","types":["New Brooms"],"size":11,"strokeWidth":2},{"id":"20241124110635","label":"Miscellaneous Protections","types":["Protection"],"size":11,"strokeWidth":2},{"id":"20241124110742","label":"Importance of Shadow Work","types":["Shadow Work"],"size":11,"strokeWidth":2},{"id":"20241124105852","label":"How to Navigate","types":["Introduction"],"size":11,"strokeWidth":2},{"id":"20241124110817","label":"How to do Shadow Work","types":["Shadow Work"],"size":11,"strokeWidth":2},{"id":"20241124112015","label":"How to create Sigils","types":["Sigils"],"size":11,"strokeWidth":2},{"id":"20241124110001","label":"Hello and Welcome","types":["New Brooms"],"size":11,"strokeWidth":2},{"id":"20241124110408","label":"Energetic Protections","types":["Protection"],"size":11,"strokeWidth":2},{"id":"20241124111128","label":"Empathy for others","types":["Shadow Work"],"size":11,"strokeWidth":2},{"id":"20241124110536","label":"Baneful Spells or Wards","types":["Protection"],"size":11,"strokeWidth":2},{"id":"20241124111008","label":"Allowing Yourself to Feel","types":["Shadow Work"],"size":11,"strokeWidth":2}],"links":[]};
-        const graphProperties = {"select_origin":"directory","files_origin":"defaults","nodes_origin":"","links_origin":"","nodes_online":"","links_online":"","images_origin":"","export_target":"","history":true,"focus_max":2,"record_types":{"undefined":{"fill":"#858585","stroke":"#858585"},"Introduction":{"fill":"#FF5733","stroke":"#858585"},"New Brooms":{"fill":"#33FF57","stroke":"#858585"},"Protection":{"fill":"#3357FF","stroke":"#858585"},"Shadow Work":{"fill":"#FFFF33","stroke":"#858585"},"Sigils":{"fill":"#FF33FF","stroke":"#858585"},"Color":{"fill":"#33FFFF","stroke":"#858585"},"Moon Cycles":{"fill":"#FF7F50","stroke":"#858585"},"Holidays":{"fill":"#FFD700","stroke":"#858585"},"Days of the Week":{"fill":"#ADFF2F","stroke":"#858585"},"Numerology":{"fill":"#FF69B4","stroke":"#858585"},"Tarot":{"fill":"#87CEEB","stroke":"#858585"},"Runes":{"fill":"#FFA07A","stroke":"#858585"},"Witch's Alphabet":{"fill":"#20B2AA","stroke":"#858585"},"Chakra":{"fill":"#9370DB","stroke":"#858585"},"Herbs-Spiritual":{"fill":"#FF4500","stroke":"#858585"},"Herbs-Medicinal":{"fill":"#DA70D6","stroke":"#858585"},"Crystals":{"fill":"#3CB371","stroke":"#858585"},"Alchemy":{"fill":"#FFB6C1","stroke":"#858585"},"Western Astrology-Aspects":{"fill":"#48D1CC","stroke":"#858585"},"Western Astrology-Houses":{"fill":"#C71585","stroke":"#858585"},"Western Astrology-Planets":{"fill":"#98FB98","stroke":"#858585"},"Western Astrology-Zodiacs":{"fill":"#AFEEEE","stroke":"#858585"},"Western Astrology-Other Bodies":{"fill":"#FFDAB9","stroke":"#858585"},"Celtic Pantheon":{"fill":"#FFC0CB","stroke":"#858585"},"Demonaltry":{"fill":"#B0C4DE","stroke":"#858585"},"Egyptian Pantheon":{"fill":"#FFF0F5","stroke":"#858585"},"Germanic Pantheon":{"fill":"#F08080","stroke":"#858585"},"Greek Pantheon":{"fill":"#DDA0DD","stroke":"#858585"},"Norse Pantheon":{"fill":"#FF6347","stroke":"#858585"},"Saints":{"fill":"#87CEFA","stroke":"#858585"}},"link_types":{"undefined":{"stroke":"simple","color":"#e1e1e1"}},"references_as_nodes":false,"references_type_label":"references","record_filters":[],"graph_background_color":"#34495E","graph_highlight_color":"#FFFFE0","graph_highlight_on_hover":true,"graph_text_size":10,"graph_arrows":true,"node_size_method":"degree","node_size":10,"node_size_max":20,"node_size_min":2,"attraction_force":200,"attraction_distance_max":250,"attraction_vertical":0,"attraction_horizontal":0,"views":{},"record_metas":[],"generate_id":"always","link_context":"tooltip","hide_id_from_record_header":false,"title":"Witchery Resource Library","author":"Ciara Smith","description":"A library of information I have studied in my time as a witch and their correspences with each other.","keywords":[],"link_symbol":"","csl":"","bibliography":"","csl_locale":"","css_custom":"","devtools":false,"lang":"en"};
+        const data = {"nodes":[{"id":"20241125095936","label":"Witch's Alphabet","types":["Witch's Alphabet"],"size":2,"strokeWidth":2},{"id":"20241124110249","label":"Why start with protection?","types":["Protection"],"size":8,"strokeWidth":2},{"id":"20241124105709","label":"Why did I make this?","types":["Introduction"],"size":2,"strokeWidth":2},{"id":"20241124105630","label":"Who am I?","types":["Introduction"],"size":2,"strokeWidth":2},{"id":"20241124110457","label":"Ward Protections","types":["Protection"],"size":2,"strokeWidth":2},{"id":"20241125092544","label":"Updates","types":["Introduction"],"size":2,"strokeWidth":2},{"id":"20241124110314","label":"Types of Protection","types":["Protection"],"size":2,"strokeWidth":2},{"id":"20241121213905","label":"The Crown Chakra","types":["Chakra"],"size":2,"strokeWidth":2},{"id":"20241124111045","label":"Taking care of your Inner Child","types":["Shadow Work"],"size":2,"strokeWidth":2},{"id":"20241124110436","label":"Spell Protections","types":["Protection"],"size":2,"strokeWidth":2},{"id":"20241124110346","label":"Sigil Protections","types":["Protection"],"size":2,"strokeWidth":2},{"id":"20241124111156","label":"Reprogramming your Subconscious","types":["Shadow Work"],"size":2,"strokeWidth":2},{"id":"20241124110031","label":"Recommended Starting Place","types":["New Brooms"],"size":20,"strokeWidth":2},{"id":"20241124110635","label":"Miscellaneous Protections","types":["Protection"],"size":2,"strokeWidth":2},{"id":"20241124110742","label":"Importance of Shadow Work","types":["Shadow Work"],"size":13.999999999999998,"strokeWidth":2},{"id":"20241124105852","label":"How to Navigate","types":["Introduction"],"size":2,"strokeWidth":2},{"id":"20241124110817","label":"How to do Shadow Work","types":["Shadow Work"],"size":8,"strokeWidth":2},{"id":"20241124112015","label":"How to create Sigils","types":["Sigils"],"size":2,"strokeWidth":2},{"id":"20241124110001","label":"Hello and Welcome","types":["New Brooms"],"size":8,"strokeWidth":2},{"id":"20241124110408","label":"Energetic Protections","types":["Protection"],"size":2,"strokeWidth":2},{"id":"20241124111128","label":"Empathy for others","types":["Shadow Work"],"size":2,"strokeWidth":2},{"id":"20241125100353","label":"Elder Futhark Runes","types":["Runes"],"size":2,"strokeWidth":2},{"id":"20241124110536","label":"Baneful Spells or Wards","types":["Protection"],"size":2,"strokeWidth":2},{"id":"20241124111008","label":"Allowing Yourself to Feel","types":["Shadow Work"],"size":2,"strokeWidth":2}],"links":[{"id":0,"context":["So head on over to [[20241124110249|Why start with protection?]] and [[20241124110742|Importance of shadow work]] to get started."],"type":"undefined","shape":{"stroke":"simple","dashInterval":null},"color":"#e1e1e1","colorHighlight":"#FFFFE0","source":"20241124110031","target":"20241124110249","report":[]},{"id":1,"context":["So head on over to [[20241124110249|Why start with protection?]] and [[20241124110742|Importance of shadow work]] to get started."],"type":"undefined","shape":{"stroke":"simple","dashInterval":null},"color":"#e1e1e1","colorHighlight":"#FFFFE0","source":"20241124110031","target":"20241124110742","report":[]},{"id":2,"context":["Now the part that comes from my experience and downloads (if you'd like to skip it, go ahead to [[20241124110817|How do to do shadow work]]):"],"type":"undefined","shape":{"stroke":"simple","dashInterval":null},"color":"#e1e1e1","colorHighlight":"#FFFFE0","source":"20241124110742","target":"20241124110817","report":[]},{"id":3,"context":["The [[20241124110031|Recommended Starting Place]] page is just that, recommended. I do provide reasoning, but it's completely up to you if that's where you start."],"type":"undefined","shape":{"stroke":"simple","dashInterval":null},"color":"#e1e1e1","colorHighlight":"#FFFFE0","source":"20241124110001","target":"20241124110031","report":[]}]};
+        const graphProperties = {"select_origin":"directory","files_origin":"defaults","nodes_origin":"","links_origin":"","nodes_online":"","links_online":"","images_origin":"","export_target":"","history":true,"focus_max":2,"record_types":{"undefined":{"fill":"#858585","stroke":"#858585"},"Introduction":{"fill":"#FF5733","stroke":"#858585"},"New Brooms":{"fill":"#33FF57","stroke":"#858585"},"Protection":{"fill":"#3357FF","stroke":"#858585"},"Shadow Work":{"fill":"#FFFF33","stroke":"#858585"},"Sigils":{"fill":"#FF33FF","stroke":"#858585"},"Color":{"fill":"#33FFFF","stroke":"#858585"},"Moon Cycles":{"fill":"#FF7F50","stroke":"#858585"},"Holidays":{"fill":"#FFD700","stroke":"#858585"},"Days of the Week":{"fill":"#ADFF2F","stroke":"#858585"},"Numerology":{"fill":"#FF69B4","stroke":"#858585"},"Tarot":{"fill":"#87CEEB","stroke":"#858585"},"Runes":{"fill":"#FFA07A","stroke":"#858585"},"Witch's Alphabet":{"fill":"#20B2AA","stroke":"#858585"},"Chakra":{"fill":"#9370DB","stroke":"#858585"},"Herbs-Spiritual":{"fill":"#FF4500","stroke":"#858585"},"Herbs-Medicinal":{"fill":"#DA70D6","stroke":"#858585"},"Crystals":{"fill":"#3CB371","stroke":"#858585"},"Alchemy":{"fill":"#FFB6C1","stroke":"#858585"},"Western Astrology-Aspects":{"fill":"#48D1CC","stroke":"#858585"},"Western Astrology-Houses":{"fill":"#C71585","stroke":"#858585"},"Western Astrology-Planets":{"fill":"#98FB98","stroke":"#858585"},"Western Astrology-Zodiacs":{"fill":"#AFEEEE","stroke":"#858585"},"Western Astrology-Other Bodies":{"fill":"#FFDAB9","stroke":"#858585"},"Celtic Pantheon":{"fill":"#FFC0CB","stroke":"#858585"},"Demonaltry":{"fill":"#B0C4DE","stroke":"#858585"},"Egyptian Pantheon":{"fill":"#FFF0F5","stroke":"#858585"},"Germanic Pantheon":{"fill":"#F08080","stroke":"#858585"},"Greek Pantheon":{"fill":"#DDA0DD","stroke":"#858585"},"Norse Pantheon":{"fill":"#FF6347","stroke":"#858585"},"Saints":{"fill":"#87CEFA","stroke":"#858585"}},"link_types":{"undefined":{"stroke":"simple","color":"#e1e1e1"}},"references_as_nodes":false,"references_type_label":"references","record_filters":[],"graph_background_color":"#34495E","graph_highlight_color":"#FFFFE0","graph_highlight_on_hover":true,"graph_text_size":10,"graph_arrows":true,"node_size_method":"degree","node_size":10,"node_size_max":20,"node_size_min":2,"attraction_force":200,"attraction_distance_max":250,"attraction_vertical":0,"attraction_horizontal":0,"views":{},"record_metas":[],"generate_id":"always","link_context":"tooltip","hide_id_from_record_header":false,"title":"Witchery Resource Library","author":"Ciara Smith","description":"A library of information I have studied in my time as a witch and their correspences with each other. To find out more information please see type Introduction. For new brooms who don't know where to start, go to type New Brooms for recommendations.","keywords":[],"link_symbol":"","csl":"","bibliography":"","csl_locale":"","css_custom":"","devtools":false,"lang":"en"};
         const tagList = [{"name":"Sahasrara","nodes":["20241121213905"]},{"name":"pineal gland","nodes":["20241121213905"]},{"name":"top of head","nodes":["20241121213905"]},{"name":"hair","nodes":["20241121213905"]},{"name":"growth","nodes":["20241121213905"]},{"name":"central nervous system","nodes":["20241121213905"]},{"name":"awareness","nodes":["20241121213905"]},{"name":"memory","nodes":["20241121213905"]},{"name":"clarity","nodes":["20241121213905"]},{"name":"compassion","nodes":["20241121213905"]},{"name":"understanding","nodes":["20241121213905"]},{"name":"poor coordination","nodes":["20241121213905"]},{"name":"headaches","nodes":["20241121213905"]},{"name":"dizziness","nodes":["20241121213905"]},{"name":"light senstivity","nodes":["20241121213905"]},{"name":"brain fog","nodes":["20241121213905"]},{"name":"sleep disturbances","nodes":["20241121213905"]},{"name":"fatigue","nodes":["20241121213905"]},{"name":"lack of purpose","nodes":["20241121213905"]},{"name":"feeling disconnected","nodes":["20241121213905"]},{"name":"confusion","nodes":["20241121213905"]},{"name":"distraction","nodes":["20241121213905"]},{"name":"lack of focus","nodes":["20241121213905"]},{"name":"isolation","nodes":["20241121213905"]},{"name":"depression","nodes":["20241121213905"]},{"name":"existential crises","nodes":["20241121213905"]},{"name":"rigidity in thinking","nodes":["20241121213905"]},{"name":"unwillingness to new ideas thoughts knowledge","nodes":["20241121213905"]},{"name":"being stuck in ones own thinking","nodes":["20241121213905"]}];
-        const typeList = {"Protection":{"nodes":["20241124110249","20241124110457","20241124110314","20241124110436","20241124110346","20241124110635","20241124110408","20241124110536"],"active":true},"Introduction":{"nodes":["20241124105709","20241124105630","20241124105852"],"active":true},"Chakra":{"nodes":["20241121213905"],"active":true},"Shadow Work":{"nodes":["20241124111045","20241124111156","20241124110742","20241124110817","20241124111128","20241124111008"],"active":true},"New Brooms":{"nodes":["20241124110031","20241124110001"],"active":true},"Sigils":{"nodes":["20241124112015"],"active":true}};
+        const typeList = {"Witch's Alphabet":{"nodes":["20241125095936"],"active":true},"Protection":{"nodes":["20241124110249","20241124110457","20241124110314","20241124110436","20241124110346","20241124110635","20241124110408","20241124110536"],"active":true},"Introduction":{"nodes":["20241124105709","20241124105630","20241125092544","20241124105852"],"active":true},"Chakra":{"nodes":["20241121213905"],"active":true},"Shadow Work":{"nodes":["20241124111045","20241124111156","20241124110742","20241124110817","20241124111128","20241124111008"],"active":true},"New Brooms":{"nodes":["20241124110031","20241124110001"],"active":true},"Sigils":{"nodes":["20241124112015"],"active":true},"Runes":{"nodes":["20241125100353"],"active":true}};
         const timeline = {};
-        const sorting = {"records":[{"alphabetical":0,"chronological":0},{"alphabetical":1,"chronological":1},{"alphabetical":2,"chronological":2},{"alphabetical":3,"chronological":3},{"alphabetical":4,"chronological":4},{"alphabetical":5,"chronological":5},{"alphabetical":6,"chronological":6},{"alphabetical":7,"chronological":7},{"alphabetical":8,"chronological":8},{"alphabetical":9,"chronological":9},{"alphabetical":10,"chronological":10},{"alphabetical":11,"chronological":11},{"alphabetical":12,"chronological":12},{"alphabetical":13,"chronological":13},{"alphabetical":14,"chronological":14},{"alphabetical":15,"chronological":15},{"alphabetical":16,"chronological":16},{"alphabetical":17,"chronological":17},{"alphabetical":18,"chronological":18},{"alphabetical":19,"chronological":19},{"alphabetical":20,"chronological":20}],"tags":[{"alphabetical":24,"digital":0},{"alphabetical":21,"digital":1},{"alphabetical":26,"digital":2},{"alphabetical":14,"digital":3},{"alphabetical":13,"digital":4},{"alphabetical":3,"digital":5},{"alphabetical":0,"digital":6},{"alphabetical":20,"digital":7},{"alphabetical":4,"digital":8},{"alphabetical":5,"digital":9},{"alphabetical":27,"digital":10},{"alphabetical":22,"digital":11},{"alphabetical":15,"digital":12},{"alphabetical":9,"digital":13},{"alphabetical":19,"digital":14},{"alphabetical":2,"digital":15},{"alphabetical":25,"digital":16},{"alphabetical":11,"digital":17},{"alphabetical":18,"digital":18},{"alphabetical":12,"digital":19},{"alphabetical":6,"digital":20},{"alphabetical":8,"digital":21},{"alphabetical":17,"digital":22},{"alphabetical":16,"digital":23},{"alphabetical":7,"digital":24},{"alphabetical":10,"digital":25},{"alphabetical":23,"digital":26},{"alphabetical":28,"digital":27},{"alphabetical":1,"digital":28}]};
+        const sorting = {"records":[{"alphabetical":0,"chronological":0},{"alphabetical":1,"chronological":1},{"alphabetical":2,"chronological":2},{"alphabetical":3,"chronological":3},{"alphabetical":4,"chronological":4},{"alphabetical":5,"chronological":5},{"alphabetical":6,"chronological":6},{"alphabetical":7,"chronological":7},{"alphabetical":8,"chronological":8},{"alphabetical":9,"chronological":9},{"alphabetical":10,"chronological":10},{"alphabetical":11,"chronological":11},{"alphabetical":12,"chronological":12},{"alphabetical":13,"chronological":13},{"alphabetical":14,"chronological":14},{"alphabetical":15,"chronological":15},{"alphabetical":16,"chronological":16},{"alphabetical":17,"chronological":17},{"alphabetical":18,"chronological":18},{"alphabetical":19,"chronological":19},{"alphabetical":20,"chronological":20},{"alphabetical":21,"chronological":21},{"alphabetical":22,"chronological":22},{"alphabetical":23,"chronological":23}],"tags":[{"alphabetical":24,"digital":0},{"alphabetical":21,"digital":1},{"alphabetical":26,"digital":2},{"alphabetical":14,"digital":3},{"alphabetical":13,"digital":4},{"alphabetical":3,"digital":5},{"alphabetical":0,"digital":6},{"alphabetical":20,"digital":7},{"alphabetical":4,"digital":8},{"alphabetical":5,"digital":9},{"alphabetical":27,"digital":10},{"alphabetical":22,"digital":11},{"alphabetical":15,"digital":12},{"alphabetical":9,"digital":13},{"alphabetical":19,"digital":14},{"alphabetical":2,"digital":15},{"alphabetical":25,"digital":16},{"alphabetical":11,"digital":17},{"alphabetical":18,"digital":18},{"alphabetical":12,"digital":19},{"alphabetical":6,"digital":20},{"alphabetical":8,"digital":21},{"alphabetical":17,"digital":22},{"alphabetical":16,"digital":23},{"alphabetical":7,"digital":24},{"alphabetical":10,"digital":25},{"alphabetical":23,"digital":26},{"alphabetical":28,"digital":27},{"alphabetical":1,"digital":28}]};
 
         const focusIsActive = true;
 
